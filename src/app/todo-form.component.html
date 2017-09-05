@@ -1,0 +1,10 @@
+<div class="container">
+    <h1 class="jumbotron"> My Todo App </h1>
+    <form #todoForm="ngForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="text"> Item </label>
+            <input type="text" name="text" [(ngModel)]="model.text" placeholder="Type here.." class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-success"> Add </button>
+    </form>
+</div>

@@ -1,0 +1,9 @@
+.pointer{
+    cursor: pointer;
+}
+.bold-hover:hover {
+    font-weight: bold;
+}
+.strike {
+    text-decoration: line-through;
+}
